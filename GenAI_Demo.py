@@ -251,7 +251,7 @@ if search_term:
 st.markdown("---")
 st.markdown(
     """
-    ## 🚀 Welcome to SnapLogic GenAI Builder Portal
+    ## 🚀 Bienvenue sur le portail Agents de SnapLogic
     
     This portal showcases **44 powerful AI agents** built with SnapLogic Agent Creator, demonstrating the incredible capabilities of LLM-based applications.
     
