@@ -18,7 +18,7 @@ st.set_page_config(
 st.title(title)
 
 st.sidebar.title("Catalogue de démos Agents")
-st.sidebar.success("Choisissez une démo ci-dessus!
+st.sidebar.success("Choisissez une démo ci-dessus!)
 
 # Original landing page content
 st.markdown("---")
