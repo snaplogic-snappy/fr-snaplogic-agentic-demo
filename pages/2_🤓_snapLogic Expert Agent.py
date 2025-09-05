@@ -23,14 +23,13 @@ def typewriter(text: str, speed: int):
         container.markdown(curr_full_text)
         time.sleep(1 / speed)
 
-st.set_page_config(page_title="SnapLogic Expert Assistant")
-st.title("SnapLogic Expert Assistant")
+st.set_page_config(page_title="L'assistant intelligent SnapLogic")
+st.title("L'assistant intelligent SnapLogic")
 
 st.markdown("""
-### AI-powered RFP and technical expert assistant with Voice Interface
+### Assistant IA spécialisé en RFP et en expertise technique, avec interface vocale
 
-Get detailed answers to RFP questions and technical inquiries, with information sourced from official documentation, 
-Slack discussions, and various other SnapLogic resources.
+Obtenez des réponses détaillées aux questions de RFP et aux demandes techniques, avec des informations issues de la documentation officielle, des discussions Slack et de diverses autres ressources SnapLogic.
 """)
 
 # Create columns with adjusted ratios for better widget display
@@ -44,18 +43,18 @@ with col1:
     st.components.v1.html(elevenlabs_html, height=225, width=340)
 
 st.markdown("""
-💡 **Voice Interaction Available**
-- Use the voice widget above to speak your questions
-- Listen to AI-generated voice responses
-- Perfect for hands-free operation
+💡 **Interaction vocale disponible**
+- Posez vos questions à l’oral avec le widget vocal ci-dessus
+- Écoutez les réponses vocales générées par l’IA
+- Conçu pour un usage mains libres
 
-Sample queries:
-- What security certifications does SnapLogic maintain?
-- Describe SnapLogic's approach to API management
-- What is the SnapLogic disaster recovery strategy?
-- How does SnapLogic handle data encryption at rest and in transit?
-- What monitoring capabilities are available in the platform?
-- Explain SnapLogic's integration with identity providers
+Exemples de requêtes :
+- Quelles sont les certifications de sécurité de SnapLogic ?
+- Décrivez l'approche de SnapLogic en matière de gestion des API
+- Quelle est la stratégie de reprise après sinistre de SnapLogic ?
+- Comment SnapLogic gère-t-il le chiffrement des données au repos et en transit ?
+- Quelles capacités de surveillance sont disponibles sur la plateforme ?
+- Expliquez l'intégration de SnapLogic avec les fournisseurs d'identité
 """)
 
 # Initialize chat history
