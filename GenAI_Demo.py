@@ -253,65 +253,56 @@ st.markdown(
     """
     ## 🚀 Bienvenue sur le portail Agents de SnapLogic
     
-    This portal showcases **44 powerful AI agents** built with SnapLogic Agent Creator, demonstrating the incredible capabilities of LLM-based applications.
+    Ce portail présente 4 agents IA créés avec SnapLogic Agent Creator, démontrant les incroyables capacités des applications basées sur les LLM.
     
-    ### 🎯 What You'll Find Here
+    ### 🎯 Ce que vous trouverez ici : 
     
-    **Business Solutions** (8 demos)
-    - HR assistants, billing reconciliation, CRM analytics
-    - Sales agents, invoice processing, customer intelligence
+    **Des solutions business**
+    - Rapprochement de factures
+    - Assistant commercial IA 
     
-    **Content Creation** (15 demos)  
-    - Chatbots, blog writers, social media agents
-    - Content generation, outreach sequences, document processing
+    **Des outils techniques** 
+    - Des assistants de Data science, Assistant expert de SnapLogic
     
-    **Technical Tools** (10 demos)
-    - Data science assistants, SnapLogic expert agents
-    - Technical evaluations, support log analysis, runtime tools
+    ### 🔍 Comment utiliser ce portail ?
     
-    **Industry Solutions** (11 demos)
-    - Healthcare, government, law enforcement, military
-    - Manufacturing, insurance, education applications
+    1. **Recherche**: utilisez la barre de recherche pour trouver des démos par mot-clé, catégorie ou tag
+    2. **Parcourir par catégorie**: utilisez la barre latérale pour naviguer dans les différentes catégories de démos
+    3. **Recherche par fonction**: recherchez des fonctions spécifiques comme « RH », « Vente », « Analytics »
+    4. **Recherche par technologie**: recherchez « SnapLogic », « SQL », « PDF » pour trouver les outils correspondants
+    5. **Focus secteur d'activité**: explorez les solutions pour la santé, l’administration ou l'industrie
     
-    ### 🔍 How to Explore
+    ### 💡 Pour commencer
     
-    1. **Search Above**: Use the search box to find specific demos by any word in the title, categories, or tags
-    2. **Browse by Category**: Use the sidebar to navigate through different demo categories
-    3. **Search by Function**: Look for specific capabilities like "HR", "Sales", "Analytics"
-    4. **Find by Technology**: Search for "SnapLogic", "SQL", "PDF" to find relevant tools
-    5. **Industry Focus**: Explore healthcare, government, or manufacturing solutions
+    **👈 Sélectionnez une démo dans la barre latérale pour voir Agent Creator en action !
     
-    ### 💡 Getting Started
-    
-    **👈 Select any demo from the sidebar** to see Agent Creator in action!
-    
-    Each demo showcases:
-    - Real-world use cases
-    - Natural language interaction
-    - Integration with various data sources
-    - Professional-grade AI capabilities
+    Chaque démo présente :
+    - Des cas d’usage réels
+    - Une interaction en langage naturel
+    - Une intégration avec différentes sources de données
+    - Des capacités IA professionnelles
     
     ---
     
-    ## 🛠️ About SnapLogic Agent Creator
+    ## 🛠️ À propos de SnapLogic Agent Creator
     
-    **SnapLogic Agent Creator** allows you to create LLM-based applications in no time! 
+    **SnapLogic Agent Creator** vous permet de créer des applications basées sur les LLM en un rien de temps !
     
-    ### Key Features:
-    - **No-Code Development**: Build AI agents without writing complex code
-    - **Enterprise Integration**: Connect to any data source or API
-    - **Natural Language**: Interact with your data using plain English
-    - **Scalable Architecture**: Deploy production-ready AI applications
+    ### Fonctionnalités clés :
+    - **Développement sans code** : créez des agents IA sans écrire de code complexe
+    - **Enterprise Integration** : connectez-vous à n’importe quelle source de données ou API
+    - **Langage naturel** : interagissez avec vos données en langage courant
+    - **Architecture scalable**: déployez des applications IA clé en main pour la production
     
-    ### Want to Learn More?
-    - 📚 [Agent Creator Documentation](https://docs.snaplogic.com/agentcreator/agentcreator-about.html)
-    - 🏢 [SnapLogic Platform Docs](https://docs.snaplogic.com)
-    - 💬 [Community Forum](https://community.snaplogic.com)
-    - 🎥 [Video Tutorials](https://www.youtube.com/@snaplogic)
+    ### Vous voulez en savoir plus ?
+    - 📚 [Documentation Agent Creator](https://docs.snaplogic.com/agentcreator/agentcreator-about.html)
+    - 🏢 [Documentation plateforme SnapLogic](https://docs.snaplogic.com)
+    - 💬 [Forum communautaire](https://community.snaplogic.com)
+    - 🎥 [Tutoriels vidéos](https://www.youtube.com/@snaplogic)
     
     ---
     
-    *Ready to explore? Choose a demo from the sidebar or search above to get started!*
+    *Prêt à explorer ? Choisissez une démo dans la barre latérale ou utilisez la recherche ci-dessus pour commencer !*
     """
 )
 
