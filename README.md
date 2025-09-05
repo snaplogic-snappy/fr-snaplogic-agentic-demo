@@ -1,5 +1,5 @@
 # Overview
-This is a demo repository to showcase GenAI apps built in minutes thanks to SnapLogic GenAI Builder.
+This is a demo repository to showcase Agentic AI apps built in minutes thanks to SnapLogic Agent Creator.
 More info on SnapLogic here: [Agent Creator](https://www.snaplogic.com/products/agent-creator)
 
 # GenAI Catalog
