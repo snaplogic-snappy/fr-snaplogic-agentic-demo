@@ -213,40 +213,6 @@ st.title(title)
 st.sidebar.title("Agent Creator Catalog")
 st.sidebar.success("Select a demo above.")
 
-# Enhanced search functionality
-st.markdown("## 🔍 Search Demos")
-st.markdown("Search by **any word** in the demo title, **categories**, or **tags**")
-
-search_term = st.text_input(
-    "Search demos...", 
-    placeholder="e.g., HR, Business, Analytics, Healthcare, Sales, SnapLogic...",
-    key="search_input"
-)
-
-# Get and filter demos
-demos = get_demo_metadata()
-filtered_demos = filter_demos(demos, search_term)
-
-# Display results
-if search_term:
-    st.caption(f"Showing {len(filtered_demos)} of {len(demos)} demos")
-else:
-    st.caption(f"All {len(demos)} demos")
-
-render_demo_grid(filtered_demos, len(demos))
-
-# Show search tips
-if search_term:
-    st.markdown("---")
-    st.markdown("### 💡 Search Tips")
-    st.markdown(f"""
-    - **Title words**: Search for any word in demo titles
-    - **Categories**: Try "Business", "Content", "Technical", "Industry"  
-    - **Tags**: Search specific tags like "HR", "Sales", "Analytics", "Healthcare"
-    - **Functions**: Look for "Assistant", "Agent", "Bot", "Tool"
-    - **Industries**: Search "Healthcare", "Finance", "Government", "Education"
-    """)
-
 # Original landing page content
 st.markdown("---")
 st.markdown(
@@ -305,15 +271,3 @@ st.markdown(
     *Prêt à explorer ? Choisissez une démo dans la barre latérale ou utilisez la recherche ci-dessus pour commencer !*
     """
 )
-
-# Add some visual elements
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.info("**44 AI Agents**\nReady to explore")
-
-with col2:
-    st.success("**4 Categories**\nBusiness, Content, Technical, Industry")
-
-with col3:
-    st.warning("**100+ Tags**\nFind exactly what you need")
