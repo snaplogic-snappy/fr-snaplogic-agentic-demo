@@ -17,15 +17,13 @@ st.set_page_config(
 )
 st.title(title)
 
-st.sidebar.title("Agent Creator Catalog")
-st.sidebar.success("Select a demo above.")
+st.sidebar.title("Catalogue de démos Agents")
+st.sidebar.success("Choisissez une démo ci-dessus!
 
 # Original landing page content
 st.markdown("---")
 st.markdown(
     """
-    ## 🚀 Bienvenue sur le portail Agents de SnapLogic
-    
     Ce portail présente 4 agents IA créés avec SnapLogic Agent Creator, démontrant les incroyables capacités des applications basées sur les LLM.
 
     *Prêt à explorer ? Choisissez une démo dans la barre latérale pour commencer !*
