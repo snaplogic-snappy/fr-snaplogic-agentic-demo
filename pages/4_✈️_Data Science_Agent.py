@@ -24,16 +24,16 @@ def typewriter(text: str, speed: int):
         container.markdown(curr_full_text)
         time.sleep(1 / speed)
 
-st.set_page_config(page_title="Data Science Assistant")
-st.title("Intelligent Data Science Assistant")
+st.set_page_config(page_title="Assistant en Data Science")
+st.title("Assistant de Data Science intelligent")
 st.markdown("""  
-    ### AI-powered data science assistant for exploring datasets
-    Currently analyzing TSA claims data. Ask questions in natural language - the assistant will automatically refine queries to find accurate insights.
+    ### Assistant intelligent en science des données alimenté par l’IA pour l’exploration de datasets
+    Analyse actuellement les données des réclamations de l’agence américaine responsable de la sécurité des transports - TSA. Posez des questions en langage naturel : l’assistant affinera automatiquement les requêtes pour fournir des insights précis.
     
-    Sample queries:
-    - Which are the top three airports with the highest total number of claims?
-    - What are the most common types of claims filed at major airports?
-    - Which airports have the highest claim denial rates?
+    Exemples de requêtesSample queries:
+    - Quels sont les trois aéroports avec le plus grand nombre de réclamations ?
+    - Quels sont les types de réclamations les plus fréquents dans les grands aéroports ?
+    - Quels aéroports ont les taux de refus de réclamations les plus élevés ?
 """)
 
 # Initialize chat history and toggle states
