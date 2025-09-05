@@ -220,54 +220,24 @@ st.markdown(
     ## 🚀 Bienvenue sur le portail Agents de SnapLogic
     
     Ce portail présente 4 agents IA créés avec SnapLogic Agent Creator, démontrant les incroyables capacités des applications basées sur les LLM.
-    
-    ### 🎯 Ce que vous trouverez ici : 
-    
-    **Des solutions business**
-    - Rapprochement de factures
-    - Assistant commercial IA 
-    
-    **Des outils techniques** 
-    - Des assistants de Data science, Assistant expert de SnapLogic
-    
-    ### 🔍 Comment utiliser ce portail ?
-    
-    1. **Recherche**: utilisez la barre de recherche pour trouver des démos par mot-clé, catégorie ou tag
-    2. **Parcourir par catégorie**: utilisez la barre latérale pour naviguer dans les différentes catégories de démos
-    3. **Recherche par fonction**: recherchez des fonctions spécifiques comme « RH », « Vente », « Analytics »
-    4. **Recherche par technologie**: recherchez « SnapLogic », « SQL », « PDF » pour trouver les outils correspondants
-    5. **Focus secteur d'activité**: explorez les solutions pour la santé, l’administration ou l'industrie
-    
-    ### 💡 Pour commencer
-    
-    **👈 Sélectionnez une démo dans la barre latérale pour voir Agent Creator en action !
-    
-    Chaque démo présente :
-    - Des cas d’usage réels
-    - Une interaction en langage naturel
-    - Une intégration avec différentes sources de données
-    - Des capacités IA professionnelles
-    
-    ---
+
+    *Prêt à explorer ? Choisissez une démo dans la barre latérale pour commencer !*
     
     ## 🛠️ À propos de SnapLogic Agent Creator
     
-    **SnapLogic Agent Creator** vous permet de créer des applications basées sur les LLM en un rien de temps !
+    **SnapLogic Agent Creator** vous permet de créer des agents IA en un rien de temps !
     
     ### Fonctionnalités clés :
     - **Développement sans code** : créez des agents IA sans écrire de code complexe
     - **Enterprise Integration** : connectez-vous à n’importe quelle source de données ou API
-    - **Langage naturel** : interagissez avec vos données en langage courant
+    - **Langage naturel** : interagissez avec vos données en français
     - **Architecture scalable**: déployez des applications IA clé en main pour la production
     
     ### Vous voulez en savoir plus ?
     - 📚 [Documentation Agent Creator](https://docs.snaplogic.com/agentcreator/agentcreator-about.html)
-    - 🏢 [Documentation plateforme SnapLogic](https://docs.snaplogic.com)
+    - 🏢 [Documentation sur la plateforme SnapLogic](https://docs.snaplogic.com)
     - 💬 [Forum communautaire](https://community.snaplogic.com)
     - 🎥 [Tutoriels vidéos](https://www.youtube.com/@snaplogic)
     
-    ---
-    
-    *Prêt à explorer ? Choisissez une démo dans la barre latérale ou utilisez la recherche ci-dessus pour commencer !*
     """
 )
