@@ -51,20 +51,19 @@ def cleartoken():
     del st.session_state["sales_assistant"]
 
 
-st.set_page_config(page_title="SnapLogic Sales Assistant")
-st.title("SnapLogic Sales Assistant")
+st.set_page_config(page_title="Assistant commercial SnapLogic")
+st.title("Assistant commercial SnapLogic")
 st.markdown(
     """  
    
-    ### AI-powered sales assistant for SnapLogic employees
-    Get instant answers to your sales-related questions, with references to official SnapLogic content.
+    ### Assistant commercial IA pour les employés de SnapLogic
+    Obtenez rapidement des réponses à vos questions commerciales avec des références au contenu officiel SnapLogic
     
-    Sample queries:
-    - What are SnapLogic's key differentiators against MuleSoft?
-    - Create a customer facing documents with customer success stories in the healthcare industry
-    - What's our pricing model for enterprise customers?
-    - What ROI metrics can I share with prospects?
-    - Find competitive analysis against Boomi for financial services
+    Exemples de requêtes :
+    - Quels sont les principaux avantages de SnapLogic par rapport à MuleSoft ?
+    - Créer des documents destinés aux clients avec des success stories dans le secteur de la santé
+    - Quels indicateurs de ROI puis-je partager avec les prospects ?
+    - Trouver une analyse concurrentielle de Boomi dans le secteur des services financiers
  """)
 
 # Check for (Access) token in Sesion State
@@ -152,3 +151,4 @@ else:
                     st.error("Invalid response format from API")
             except Exception as e:
                 st.error(f"An error occurred: {str(e)}")
+
