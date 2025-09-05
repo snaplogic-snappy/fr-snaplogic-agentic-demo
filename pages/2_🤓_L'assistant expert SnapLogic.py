@@ -68,7 +68,7 @@ for message in st.session_state.expert_assistant:
         st.markdown(message["content"])
 
 # React to user input
-prompt = st.chat_input("Ask me anything about SnapLogic's technical capabilities")
+prompt = st.chat_input("Posez votre question sur SnapLogic")
 if prompt:
     st.chat_message("user").markdown(prompt)
     st.session_state.expert_assistant.append({"role": "user", "content": prompt})
