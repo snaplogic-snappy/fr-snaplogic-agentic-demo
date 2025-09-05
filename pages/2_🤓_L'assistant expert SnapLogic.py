@@ -27,9 +27,10 @@ st.set_page_config(page_title="L'assistant intelligent SnapLogic")
 st.title("L'assistant intelligent SnapLogic")
 
 st.markdown("""
-### Assistant IA spécialisé en RFP et en expertise technique, avec interface vocale
+### Assistant IA expert SnapLogic, avec interface vocale
 
-Obtenez des réponses détaillées aux questions de RFP et aux demandes techniques, avec des informations issues de la documentation officielle, des discussions Slack et de diverses autres ressources SnapLogic.
+Répondez à n'importe quelle question technique concernant la plateforme SnapLogic. 
+Les réponses se basent sur la documentation officielle, des discussions Slack et diverses autres ressources SnapLogic.
 """)
 
 # Create columns with adjusted ratios for better widget display
@@ -53,7 +54,7 @@ Exemples de requêtes :
 - Décrivez l'approche de SnapLogic en matière de gestion des API
 - Quelle est la stratégie de reprise après sinistre de SnapLogic ?
 - Comment SnapLogic gère-t-il le chiffrement des données au repos et en transit ?
-- Quelles capacités de surveillance sont disponibles sur la plateforme ?
+- Quelles capacités de supervision sont disponibles sur la plateforme ?
 - Expliquez l'intégration de SnapLogic avec les fournisseurs d'identité
 """)
 
