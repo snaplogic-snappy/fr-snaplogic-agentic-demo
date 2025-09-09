@@ -25,12 +25,12 @@ def typewriter(text: str, speed: int):
         time.sleep(1 / speed)
 
 st.set_page_config(page_title="Assistant en Data Science")
-st.title("Assistant de Data Science intelligent")
+st.title("Assistant IA pour l’analyse des réclamations TSA")
 st.markdown("""  
-    ### Assistant intelligent en science des données alimenté par l’IA pour l’exploration de datasets
-    Analyse actuellement les données des réclamations de l’agence américaine responsable de la sécurité des transports - TSA. Posez des questions en langage naturel : l’assistant affinera automatiquement les requêtes pour fournir des insights précis.
+    ### L’assistant IA qui transforme vos questions en insights précis sur les réclamations TSA, sans besoin de requêtes complexes
+    Il analyse actuellement les données des réclamations de l’agence américaine responsable de la sécurité des transports - TSA. Posez vos questions en langage naturel et obtenez des insights précis automatiquement.
     
-    Exemples de requêtesSample queries:
+    Exemples de requêtes :
     - Quels sont les trois aéroports avec le plus grand nombre de réclamations ?
     - Quels sont les types de réclamations les plus fréquents dans les grands aéroports ?
     - Quels aéroports ont les taux de refus de réclamations les plus élevés ?
@@ -56,7 +56,7 @@ for idx, message in enumerate(st.session_state.data_analytics):
             st.markdown(message["content"])
 
 # React to user input
-prompt = st.chat_input("Ask me anything about the TSA claims data")
+prompt = st.chat_input("Posez moi vos questions sur les réclamations TSA")
 if prompt:
     st.chat_message("user").markdown(prompt)
     st.session_state.data_analytics.append({"role": "user", "content": prompt})
