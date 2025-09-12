@@ -27,7 +27,7 @@ def typewriter(text: str, speed: int):
 st.set_page_config(page_title="Assistant en Data Science")
 st.title("Assistant IA pour l’analyse des réclamations TSA")
 st.markdown("""  
-    ### L’assistant IA qui transforme vos questions en insights précis sur les réclamations TSA, sans besoin de requêtes complexes
+    ### L’assistant IA qui transforme vos questions en insights précis sur les réclamations TSA, sans besoin de data analyste
     Il analyse actuellement les données des réclamations de l’agence américaine responsable de la sécurité des transports - TSA. Posez vos questions en langage naturel et obtenez des insights précis automatiquement.
     
     Exemples de requêtes :
