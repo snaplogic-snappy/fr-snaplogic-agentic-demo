@@ -54,7 +54,7 @@ st.markdown(
     - [Contrat avec Formule de Révision de prix absente de l'ERP](https://snaplogic.box.com/s/9v4sn7hmw8mugismmftwodnnmrx2p92z)
     - [Contrat avec Formule de Révision de prix erronée dans l'ERP](https://snaplogic.box.com/s/ao0zdxjmhfbgwwzeb0ew26acbf6z6sxn)
 
-    [Pipeline SnapLogic: ](https://cdn.emea.snaplogic.com/sl/designer.html#pipe_snode=65de0c5eede53772f6790592)
+    [Pipeline SnapLogic](https://cdn.emea.snaplogic.com/sl/designer.html#pipe_snode=65de0c5eede53772f6790592)
 
     """
 )
