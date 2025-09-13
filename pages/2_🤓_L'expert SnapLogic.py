@@ -31,6 +31,8 @@ st.markdown("""
 
 Répondez à n'importe quelle question technique concernant la plateforme SnapLogic. 
 Les réponses se basent sur la documentation officielle, des discussions Slack et diverses autres ressources SnapLogic.
+
+[Pipeline SnapLogic](https://cdn.emea.snaplogic.com/sl/designer.html?v=26808#pipe_snode=67445b8f5bcf596f2f0cd68e)
 """)
 
 # Create columns with adjusted ratios for better widget display
