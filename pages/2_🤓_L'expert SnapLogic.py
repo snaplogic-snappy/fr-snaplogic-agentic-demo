@@ -30,7 +30,8 @@ st.markdown("""
 ### Assistant IA expert SnapLogic, avec interface vocale
 
 Répondez à n'importe quelle question technique concernant la plateforme SnapLogic. 
-Les réponses se basent sur la documentation officielle, des discussions Slack et diverses autres ressources SnapLogic.
+Les réponses se basent sur la documentation officielle, des discussions Slack, SnapGPT et diverses autres ressources SnapLogic.
+La réponse peut être fournie par PDF ou mp3.
 
 [Pipeline SnapLogic](https://cdn.emea.snaplogic.com/sl/designer.html?v=26808#pipe_snode=67445b8f5bcf596f2f0cd68e)
 """)
