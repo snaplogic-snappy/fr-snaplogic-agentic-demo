@@ -62,11 +62,11 @@ Exemples de requêtes :
 """)
 
 # Initialize chat history
-if "expert_assistant" not in st.session_state:
-    st.session_state.expert_assistant = []
+if "expert_assistant_fr" not in st.session_state:
+    st.session_state.expert_assistant_fr = []
 
 # Display chat messages from history
-for message in st.session_state.expert_assistant:
+for message in st.session_state.expert_assistant_fr:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
@@ -74,7 +74,7 @@ for message in st.session_state.expert_assistant:
 prompt = st.chat_input("Posez votre question sur SnapLogic")
 if prompt:
     st.chat_message("user").markdown(prompt)
-    st.session_state.expert_assistant.append({"role": "user", "content": prompt})
+    st.session_state.expert_assistant_fr.append({"role": "user", "content": prompt})
     
     with st.spinner("Working..."):
         data = {"prompt": prompt}
@@ -96,7 +96,7 @@ if prompt:
                     assistant_response = result["response"]
                     with st.chat_message("assistant"):
                         typewriter(text=assistant_response, speed=30)
-                    st.session_state.expert_assistant.append({"role": "assistant", "content": assistant_response})
+                    st.session_state.expert_assistant_fr.append({"role": "assistant", "content": assistant_response})
                 else:
                     with st.chat_message("assistant"):
                         st.error("❌ Invalid response format from API")
