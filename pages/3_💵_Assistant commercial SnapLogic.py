@@ -64,6 +64,9 @@ st.markdown(
     - Créer des documents destinés aux clients avec des success stories dans le secteur de la santé
     - Quels indicateurs de ROI puis-je partager avec les prospects ?
     - Trouver une analyse concurrentielle de Boomi dans le secteur des services financiers
+
+ [Pipeline SnapLogic](https://cdn.emea.snaplogic.com/sl/designer.html#pipe_snode=6792cce1a85a625e1b9f2f9e)
+ 
  """)
 
 # Check for (Access) token in Sesion State
@@ -151,4 +154,5 @@ else:
                     st.error("Invalid response format from API")
             except Exception as e:
                 st.error(f"An error occurred: {str(e)}")
+
 
