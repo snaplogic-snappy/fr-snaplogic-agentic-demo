@@ -34,6 +34,8 @@ st.markdown("""
     - Quels sont les trois aéroports avec le plus grand nombre de réclamations ?
     - Quels sont les types de réclamations les plus fréquents dans les grands aéroports ?
     - Quels aéroports ont les taux de refus de réclamations les plus élevés ?
+
+[Pipeline SnapLogic](https://cdn.emea.snaplogic.com/sl/designer.html#pipe_snode=6744af76b2b7e6b1f7719c4d)
 """)
 
 # Initialize chat history and toggle states
