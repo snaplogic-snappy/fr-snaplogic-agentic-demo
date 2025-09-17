@@ -61,7 +61,7 @@ st.markdown(
     
     Exemples de requêtes :
     - Quels sont les principaux avantages de SnapLogic par rapport à MuleSoft ?
-    - Créer des documents destinés aux clients avec des success stories dans le secteur de la santé
+    - Comment snapLogic a aidé des clients dans le secteur de la santé ?
     - Quels indicateurs de ROI puis-je partager avec les prospects ?
     - Trouver une analyse concurrentielle de Boomi dans le secteur des services financiers
 
@@ -154,5 +154,6 @@ else:
                     st.error("Invalid response format from API")
             except Exception as e:
                 st.error(f"An error occurred: {str(e)}")
+
 
 
