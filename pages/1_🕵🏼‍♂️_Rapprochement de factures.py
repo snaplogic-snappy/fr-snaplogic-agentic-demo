@@ -76,7 +76,7 @@ if uploaded_file is not None:
                 'Content-Type': 'application/octet-stream'
             }
             response = requests.post(
-                url=URL,
+                url=f"{URL}?lang=fr",
                 #data=file_bytes,
                 data=uploaded_file.getvalue(),
                 headers=headers,
@@ -122,3 +122,12 @@ if uploaded_file is not None:
                     st.error(f"❌ {result['message']}")            
                     typewriter(text="La formule de révision du prix extraite du Contrat PDF est la suivante:", speed=10)
                     st.latex(f"{result['pdf']['revisionFormulaPDF']}")
+                    time.sleep(1.0)
+                    st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+                    c1, c2, c3 = st.columns(3)
+                    with c1:
+                        st.metric(label="Montant Facturé par le SI", value="2500,00 €")
+                    with c2:
+                        st.metric(label="Montant à facturer selon le contrat", value="3132,21 €")
+                    with c3:
+                        st.metric(label="Montant sous-facturé", value="632,21 €")
