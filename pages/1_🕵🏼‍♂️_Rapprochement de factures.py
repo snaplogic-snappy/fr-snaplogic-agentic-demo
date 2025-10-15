@@ -77,17 +77,6 @@ with tab3:
     if st.button("📄 Voir Contrat avec formule erronée"):
         st.pdf("Contract-Reconciliation-NOK-Wrong-Formula-Applied.pdf", height=800)
 
-
-#with st.expander("Contrat conforme"):
-#    show_pdf("Contract-Reconciliation-OK.pdf")
-    # st.pdf("Contract-Reconciliation-OK.pdf")
-#st.pdf("Contract-Reconciliation-NOK-Formula-Not-Applied.pdf")
-#st.pdf("Contract-Reconciliation-NOK-Wrong-Formula-Applied.pdf")
-#with st.expander("Contrat dont la formule de révision est absente du SI"):
-    # st.pdf("Contract-Reconciliation-NOK-Formula-Not-Applied.pdf")
-#with st.expander("Contrat dont la formule de révision est erronée dans le SI"):
-    # st.pdf("Contract-Reconciliation-NOK-Wrong-Formula-Applied.pdf")
-
 st.divider()
 
 with st.chat_message("assistant"):
